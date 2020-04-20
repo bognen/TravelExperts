@@ -1,0 +1,41 @@
+.main{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.blue-card{
+  background-color: #6da2f8 !important;
+  text-align: center;
+}
+
+.card-title{
+  color: #ffffff;
+  text-align: center;
+  height:100%;
+  padding-top:0 !important;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem !important;
+}
+
+.white-card{
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+}
+
+.truck-icon{
+    text-align: center;
+    color: #6da2f8 !important;
+    margin: 1rem;
+}
+
+.card-text{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card-question{
+  padding-top: 1rem;
+  border-top: 1px solid #d9d9d9;
+}

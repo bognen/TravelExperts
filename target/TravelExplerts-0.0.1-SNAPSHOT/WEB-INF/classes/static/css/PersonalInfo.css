@@ -1,0 +1,56 @@
+/*****************************************************
+Dima Bognen, Jonathan Pirca, Abel Rojas and Manish Sudani
+The file controls styles of my Information page  
+/*****************************************************/
+
+.dl-horizontal {
+    margin-top: 1vw;
+}
+
+/* #custid {
+    display:none;
+} */
+
+#editbutton {
+    font-size: 1.25rem;
+    margin-top: auto;
+}
+
+#updatebutton {
+    font-size: 1.5rem;
+    display: none;
+}
+
+#sideimage {
+    width: 75%;
+    height: auto;
+}
+
+.custinfo-input, .custinfo-label {
+    font-size: 1.25rem;
+    width:100%;
+}
+
+.custinfo-input {
+    width: 100%;
+    color: #999999;
+    background-color: #ffffff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    max-width: 700px !important;
+}
+
+.custinfo-label {
+    color: #595959;
+}
+
+.div-group {
+    margin-top: 1.5vw;
+    width: 100%;
+}
+
+.error-label {
+    display: none;
+    color: #cc0000;
+}

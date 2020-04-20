@@ -1,0 +1,71 @@
+/*****************************************************
+Dima Bognen, Jonathan Pirca, Abel Rojas and Manish Sudani
+The file controls styles of Login pop up window  
+/*****************************************************/
+
+/*Styles for Modal box*/
+/* The Modal (background) */
+#loginModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.login-modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+ /*** Other styling ***/
+#passwd-row {
+    margin-top: 1vw !important;
+}
+
+#loginh {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+#loginSbmtButton {
+    font-size: 1.25rem;
+    margin-top: 0.75vw !important;
+    margin-bottom: 0.75vw !important;
+}
+
+.login-label, .login-input {
+    font-size: 1.25rem;
+}
+
+.demomes {
+    font-size: 1.25em;
+    margin-bottom:0;
+    margin-bottom:0;
+}

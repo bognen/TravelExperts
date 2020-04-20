@@ -1,0 +1,155 @@
+/*****************************************************
+Dima Bognen, Jonathan Pirca, Abel Rojas and Manish Sudani
+The file controls styles of registration page  
+/*****************************************************/
+
+
+/* For onfocus listeners */
+.onfocuspar{
+	display: none;
+	padding-left:40px;
+	color: #d44d4a;
+	font-size: 0.75rem;
+	font-style: italic;
+}
+/* Form header */
+#formHeader{
+	text-align:center;
+	font-weight: bold;
+	color:white; 
+	padding-top:0 !important;
+}
+
+.fa{
+	vertical-align:middle !important;
+}
+
+/* Registration form wrap  */
+.wholegroup{
+	 display: block;
+	 border-radius: 15px;
+	 background-color: #6da2f8;
+	 padding: 25px;
+	 margin-bottom: 20px;
+	 /*width: 80%;
+	 position:absolute;*/
+     top: 20%;
+     left: 15%;
+	 box-shadow: 8px 8px 5px #92b6ef;
+}
+
+span.input-group-addon {
+	background-color: #DCDCDC;
+	color: #1e90ff;
+	font-size: 17px;
+	min-width:40px;
+}
+
+.form-control{
+	font-size:17px;
+}
+
+.form-group{
+	color:white;
+}
+
+h3 {
+	font-family: 'Dancing Script', cursive;
+}
+
+#submitbtn, #resetbtn{
+	width:100%;
+	height: 80%;
+	margin-top: 15px;
+	font-size: 20px;
+	color: #696969;
+}
+
+.cols-sm-10{
+	margin: 5px;
+	color: white;
+}
+
+.row {
+	display : flex;
+}
+/******************/
+/* PopUp Window  */
+/*****************/
+.popupbox {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* PopUp Content */
+.popup-content {
+    background-color: #fefefe;
+    margin: auto;
+		font-size: 1.5em;
+		text-align: center;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+	  z-index: 2;
+}
+
+/* The Close Button(X) */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Buttons generated in popup window */
+#y-answer, #n-answer{
+	width: 80%;
+	margin-top: 15px;
+	color: black;
+}
+
+/*End of popup Window */
+/*************************/
+
+/*************************/
+/**ErrorMessage**/
+#errorMessageBody {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2000; /* Sit on top */
+    padding-top: 80px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+#errorMessageContent {
+    background-color: #fefefe;
+    margin: auto;
+		font-size: 1.25em;
+		text-align: center;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+	  z-index: 2;
+}
+/*******************************************************/

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="User Data Source [2] - jdbc:mysql://travelexperts.cc3i7aicdfky.us-east-2.rds.amazonaws.com:3306" uuid="c3d404ef-b21c-4589-94ff-c790618ca943">
+      <driver-ref>19b67d97-c5e5-4fc1-8532-dbe465d2d81b</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://travelexperts.cc3i7aicdfky.us-east-2.rds.amazonaws.com:3306</jdbc-url>
+    </data-source>
+  </component>
+</project>
